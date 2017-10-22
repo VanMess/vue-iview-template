@@ -5,7 +5,7 @@ import vueLoaderConfig from './vue-loader.conf';
 /* eslint-disable global-require */
 export default {
   entry: {
-    app: './src/main.js'
+    app: ['babel-polyfill', './src/main.js']
   },
   output: {
     path: config.build.assetsRoot,

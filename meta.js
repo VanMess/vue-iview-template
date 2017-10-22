@@ -40,6 +40,10 @@ module.exports = {
         }
       ]
     },
+	  "less": {
+		  "type": "confirm",
+		  "message": "Use Less to compile your css code?"
+	  },
     "lint": {
       "type": "confirm",
       "message": "Use ESLint to lint your code?"
